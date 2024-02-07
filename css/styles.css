@@ -1,0 +1,46 @@
+@import "colors.css";
+@import "common.css";
+@import "header.css";
+@import "navbar.css";
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex:30%;
+    padding:20px ;
+    background-color:var(--color-gray-light)
+}
+.main{
+    flex: 70%;
+   
+   
+}
+.informacion {
+    color: var( --color-primary-light);
+    text-align: center;
+}
+.informacion a{
+    color: var( --color-primary-light);
+    text-decoration: none;
+
+}
+
+/* Sección somos */
+.somos{
+    padding: 20px;
+}
+.somos h2{
+    color:var( --color-primary-light);
+}
+.somos p{
+    line-height:2 ;
+}
+
+@media screen and (max-width: 700px){
+    .navbar,.row{
+        flex-direction: column;
+    }
+}
+
