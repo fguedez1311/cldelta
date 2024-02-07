@@ -10,7 +10,7 @@
 aside{
     flex:30%;
     padding:20px ;
-    background-color:var(--color-gray-light)
+    background-color:var(--color-primary-dark)
 }
 .main{
     flex: 70%;
@@ -28,16 +28,31 @@ aside{
 }
 
 /* Sección somos */
-.somos{
-    padding: 20px;
-}
+
 .somos h2{
     color:var( --color-primary-light);
 }
 .somos p{
     line-height:2 ;
 }
-
+.carrera__title{
+    color:var( --color-primary-light);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards .cards__item {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cards__item h3{
+    color:var( --color-primary-light);
+}
 @media screen and (max-width: 700px){
     .navbar,.row{
         flex-direction: column;
