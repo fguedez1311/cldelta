@@ -2,6 +2,7 @@
 @import "common.css";
 @import "header.css";
 @import "navbar.css";
+@import "footer.css";
 
 .row{
     display: flex;
@@ -42,17 +43,22 @@ aside{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 3rem;
 }
 .cards .cards__item {
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin-top: 20px;
+ 
+  width: 250px;
+  flex-grow: 1;
+  
+    
 }
-.cards__item h3{
+.cards__item h3,.estudiante__title{
     color:var( --color-primary-light);
 }
+.estudiantes{
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 700px){
     .navbar,.row{
         flex-direction: column;
