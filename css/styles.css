@@ -28,6 +28,7 @@ aside{
 
 }
 
+
 /* Sección somos */
 
 .somos h2{
@@ -36,6 +37,18 @@ aside{
 .somos p{
     line-height:2 ;
 }
+/* Sección institucional */
+.institucional h2, .institucional h3{
+    color:var( --color-primary-light);
+}
+    
+
+.institucional__item{
+    text-align: center;
+    font-weight: 700;
+}
+
+
 .carrera__title{
     color:var( --color-primary-light);
 }
