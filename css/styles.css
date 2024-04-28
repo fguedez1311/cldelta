@@ -13,6 +13,9 @@ aside{
     padding:20px ;
     background-color:var(--color-primary-dark)
 }
+aside h2{
+    color: white;
+}
 .main{
     flex: 70%;
    
