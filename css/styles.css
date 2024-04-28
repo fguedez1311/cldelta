@@ -78,3 +78,85 @@ aside{
     }
 }
 
+
+/* Sección somos */
+
+.somos h2{
+    color:var( --color-primary-light);
+}
+.somos p{
+    line-height:2 ;
+}
+/* Sección institucional */
+.institucional h2, .institucional h3{
+    color:var( --color-primary-light);
+}
+    
+
+.institucional__item{
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.carrera__title{
+    color:var( --color-primary-light);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+} 
+.cards .cards__item {
+ 
+  width: 250px;
+  flex-grow: 1;
+  
+    
+}
+.cards__item h3,.estudiante__title{
+    color:var( --color-primary-light);
+}
+.estudiantes{
+    margin-bottom: 20px;
+}
+/* Perfiles de las carreras */
+.perfiles__title{
+    color:var( --color-primary-light);
+}
+.perfiles-cards{
+    line-height: 1.75;
+}
+.perfiles-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.perfiles-cards-card{
+    display: flex;
+    flex-direction: column;
+}
+.perfiles-cards-card__img{
+    display: block;
+    width: 100%;
+    margin: 0;
+    
+}
+.perfiles-cards-card__content{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+@media screen and (max-width: 700px){
+    .navbar,.row{
+        flex-direction: column;
+    }
+    .perfiles-cards{
+       
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+}
+
